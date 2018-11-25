@@ -54,6 +54,20 @@ body{
 	margin: 0px;
 }
 
+@media screen and (min-width: 900px) {
+  body {
+    background: url('/img/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: yellow;
+  }
+
+}
+
 a:focus{
 	color: #fff!important;
 	text-decoration: none!important;
@@ -62,7 +76,6 @@ a:focus{
 .container{
 	max-width: 1130px;
 }
-
 
 
 
